@@ -3,7 +3,7 @@ import maps
 class RenderMaps:
     def __init__(self):
         self.current_map = maps.current_map
-        self.symbolMeanings = [("0", " "), ("1", "X"),("2", "\n"),("3", "-")]
+        self.symbolMeanings = [("0", " "), ("1", "X"),("2", "\n"),("3", "-"),("@","@")]
         self.map = ""
 
     def render_current_map(self):
